@@ -1,113 +1,102 @@
 {
-  "titleNameMap": {
-    "educationList": "教育背景",
-    "workExpList": "工作经历",
-    "projectList": "项目经验",
-    "skillList": "个人技能",
-    "awardList": "更多信息",
-    "workList": "个人作品",
-    "aboutme": "个人评价"
-  },
-  "avatar": {
-    "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
-    "hidden": false
-  },
-  "profile": {
-    "name": "廖晓娟 (新茗)",
-    "email": "736xxxx86@qq.com",
-    "mobile": "156xxxx7119",
-    "github": "https://github.com/visiky (1.1k 粉丝)",
-    "zhihu": "https://www.zhihu.com/people/visiky",
-    "workExpYear": ""
-  },
-  "educationList": [
-    {
-      "edu_time": [
-        "2014.09.01",
-        "2018.06.30"
-      ],
-      "school": "华南理工大学",
-      "major": "网络工程",
-      "academic_degree": "本科"
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经历",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "自我介绍"
+    },
+    "avatar": {
+        "hidden": false,
+        "shape": "square",
+        "src": "https://pic1.imgdb.cn/item/67d3c7d488c538a9b5bd0de5.jpg"
+    },
+    "profile": {
+        "name": "李炫",
+        "email": "17759252337@163.com ",
+        "mobile": "17759252337",
+        "github": "",
+        "zhihu": "",
+        "workExpYear": "2年",
+        "workPlace": "福建福州",
+        "positionTitle": "产品设计师"
+    },
+    "educationList": [
+        {
+            "edu_time": [
+                "2019.09.01",
+                "2023.06.30"
+            ],
+            "school": "福州大学",
+            "major": "数字媒体技术",
+            "academic_degree": "本科",
+            "dataIndex": 0
+        }
+    ],
+    "awardList": [
+        {
+            "award_info": "英语 CET6",
+            "award_time": "2015"
+        },
+        {
+            "award_info": "蚂蚁近卫军 卓越个人奖",
+            "award_time": "2018.09"
+        },
+        {
+            "award_info": "前端练习生 可视化讲师",
+            "award_time": "2020.10"
+        },
+        {
+            "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
+            "award_time": "2021.07"
+        }
+    ],
+    "workExpList": [
+        {
+            "company_name": "福建博思软件股份有限公司",
+            "department_name": "博思妙想",
+            "work_time": [
+                "2019.07",
+                ""
+            ],
+            "work_desc": "1. 担任成长记录产品 ——  “集光” 的产品设计师，负责产品需求设计、任务跟进及文档输出，支持团队完成需求闭环管理。\r\n2. 使用Axure制作原型，Xmind梳理逻辑关系，确保功能模块高效交付。\r\n3. 完成影像空间、AI绘本等核心功能的设计与迭代优化，保障项目进度符合预期目标。",
+            "dataIndex": 0
+        },
+        {
+            "company_name": "福建网龙计算机网络信息技术有限公司",
+            "department_name": "软件设计部",
+            "work_time": [
+                "2021.06",
+                "2021.07"
+            ],
+            "work_desc": "产品实习生。从0-1设计面向三坑少女的兴趣社区产品 —— “小果糖”，参与用户调研、竞品功能拆解、功能设计等环节，顺利完成任务。"
+        }
+    ],
+    "skillList": [],
+    "projectList": [
+        {
+            "project_name": "集光",
+            "project_role": "产品设计师",
+            "project_time": "2023.07 - 至今",
+            "project_desc": "集光-孩子成长记录平台\r\n行业定位： 面向3-6岁儿童家庭和园所的成长记录与幼儿教育数字化平台\r\n项目成果： 累计注册用户40k+，月活跃用户10k+",
+            "project_content": "\n● 负责小程序及Web端全链路设计，主导「影像空间」「AI故事绘本」「朗读测评」等核心功能迭代，累计交付需求110+个，需求覆盖率30%，上线后日均使用时长提升30%。\n● 输出原型及功能逻辑图，推动3个大版本迭代，功能模块95%按计划交付。\n● 协助优化影像空间「人脸识别」功能，通过开源人脸识别模型调优与流程重构，识别准确率从90%提升至96%。\n● 优化AI故事生成智能体框架，通过提示词工程优化与生成链路调优，将故事绘本平均生成时间压缩30%，支持用户自然对话生成多样化图文内容\n● 设计教育机构影像管理后台，优化迭代批量上传、权限分级等功能，帮助达成50+幼儿教育机构合作园所",
+            "dataIndex": 0
+        },
+        {
+            "project_name": "小果糖",
+            "project_time": "2021.06 - 2021.07",
+            "project_desc": "小果糖 是一款面向三坑少女的兴趣社区产品，帮助用户解决闲置交易难、圈内交流难的痛点",
+            "project_content": "\r\n● 需求分析：调研三坑少女日常活跃平台，分析发现闲置交易信息超过50%，闲置交易群的活跃度高达69%，产出两类用户画像，提炼原始需求。\r\n● 竞品分析：针对原始需求，对3款二类竞品（小红书、花间笙、闲鱼）进行功能拆解与社区产品流程分析，整理UGC社区产品设计流程，产出一份竞品分析报告。\r\n● 功能设计：针对闲置交易时易受骗的痛点，为了减少买家受骗概率及受骗金额，改进卖家信誉认证机制，增加实名认证流程，提升买家对本平台卖家信任度。\r\n● 项目成果：制作路演PPT并在路演中荣获“优秀团队”称号。"
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "● 2年B&C端产品经验，曾参与小程序、H5和APP产品设计\n● 熟悉从0到1的产品功能设计\n● 工具：Axure、Mastergo（交互原型）| Xmind（业务逻辑树）| Coding（需求管理）| Python（数据处理）"
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
     }
-  ],
-  "awardList": [
-    {
-      "award_info": "英语 CET6",
-      "award_time": "2015"
-    },
-    {
-      "award_info": "蚂蚁近卫军 卓越个人奖",
-      "award_time": "2018.09"
-    },
-    {
-      "award_info": "前端练习生 可视化讲师",
-      "award_time": "2020.10"
-    },
-    {
-      "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
-      "award_time": "2021.07"
-    }
-  ],
-  "workExpList": [
-    {
-      "company_name": "蚂蚁集团",
-      "department_name": "体验技术部",
-      "work_time": [
-        "2018.06",
-        null
-      ],
-      "work_desc": "1. 担任蚂蚁高管决策和管理协同产品 “数据作战室” 的前端负责人\r\n2. 负责蚂蚁敏捷 BI 产品 “DeepInsight” 的可视分析模块产品能力建设\n3. 数据可视化 AntV 团队核心成员，负责 G2、G2Plot 开源技术的建设"
-    },
-    {
-      "company_name": "蚂蚁金服",
-      "department_name": "大数据部",
-      "work_time": [
-        "2017.06",
-        "2017.12"
-      ],
-      "work_desc": "前端实习生。使用 React 参与开发多类数据产品的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。"
-    },
-    {
-      "company_name": "数沃信息科技有限公司",
-      "department_name": "",
-      "work_time": [
-        "2017.03",
-        "2017.05"
-      ],
-      "work_desc": "前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示"
-    }
-  ],
-  "skillList": [],
-  "projectList": [
-    {
-      "project_name": "数据作战室",
-      "project_role": "前端负责人",
-      "project_time": "2019.04 - 2020.06",
-      "project_desc": "面向总裁和高管以及决策 BI 的数字化经营决策和管理协同的数据产品。提供一站式的数据化经营决策和管理协同功能，让高管高效获取指标进展以及决策洞察，并提升管理效率。",
-      "project_content": "1. 独立负责产品从 0 到 1 的开发、产品功能迭代（在项目中具有推动项目进度的经验） 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率"
-    },
-    {
-      "project_name": "DeepInsight",
-      "project_role": "可视分析负责人",
-      "project_time": "2018.07 - 2019.04 / 2020.07 - 至今",
-      "project_desc": "DeepInsight 是蚂蚁集团自主研发的自助式 BI 数据洞察分析平台，主要功能包括可视化看板搭建、智能分析、数据产品建站等。看板功能类似于火山引擎、PowerBI等产品。） ",
-      "project_content": "在该项目中主要负责可视化建设以及工程治理\n1. 主导开放能力建设，拉通产品、设计建设和扩展 40+ 可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设、促进数据分析能力增强等可视化一体化建设。同时也是 AntV G2Plot 负责人，负责将可视化技术和业务相结合。"
-    },
-    {
-      "project_name": "G2、G2Plot",
-      "project_role": "核心开发者",
-      "project_time": "2019 - 至今",
-      "project_desc": "G2 是基于图形语法理论的可视化渲染引擎，G2Plot 是在 G2 基础上封装的开箱即用的统计可视化图表库",
-      "project_content": "AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作，同时服务蚂蚁内部所有使用 G2 栈的用户，提供可视化解决方案和定制可视化的协助。"
-    }
-  ],
-  "workList": [],
-  "aboutme": {
-    "aboutme_desc": "🌱 多年大型项目经历，专注在可视分析领域\n1. 项目管理: 具有独立跟进和推动项目进度经验，把控研发测试交付进展。2.可视化经验: 通用组件设计和开发经验丰富，也能完成定制可视化诉求\n其它: 1. 前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot” 2. 蚂蚁集团前端练习生 可视化讲师 3. D2论坛小游戏: https://antv.gitee.io/zh/d2, https://antv-studio.antfin.com/bless-heatmap"
-  },
-  "theme": {
-    "color": "#2f5785",
-    "tagColor": "#8bc34a"
-  }
 }
